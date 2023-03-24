@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.ee5f7da6.css",
-    "main.js": "/static/js/main.276c9002.js",
+    "main.js": "/static/js/main.471df481.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/project4.png": "/static/media/project4.2d91699d874489034519.png",
+    "static/media/project2.png": "/static/media/project2.be3ed262ed14fb0173cc.png",
+    "static/media/project1.png": "/static/media/project1.5a00400acc1816362bd4.png",
+    "static/media/project3.png": "/static/media/project3.7b0b941cdb9a28a8dd72.png",
     "static/media/Vivek-Tomar-Resume.pdf": "/static/media/Vivek-Tomar-Resume.76efe060cd3d31497bd2.pdf",
     "static/media/profile2.png": "/static/media/profile2.6667a78bae17dee0c008.png",
     "static/media/logo.png": "/static/media/logo.19109a7221724eb64e14.png",
@@ -15,11 +19,11 @@
     "static/media/github.png": "/static/media/github.68bbeafeade821944d14.png",
     "index.html": "/index.html",
     "main.ee5f7da6.css.map": "/static/css/main.ee5f7da6.css.map",
-    "main.276c9002.js.map": "/static/js/main.276c9002.js.map",
+    "main.471df481.js.map": "/static/js/main.471df481.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee5f7da6.css",
-    "static/js/main.276c9002.js"
+    "static/js/main.471df481.js"
   ]
 }
