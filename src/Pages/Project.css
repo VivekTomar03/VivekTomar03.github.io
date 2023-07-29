@@ -1,0 +1,14 @@
+.neon {
+    
+    color: black;
+    padding: 10px;
+    box-shadow: rgba(9, 150, 232, 0.4) -5px 5px, rgba(46, 166, 240, 0.3) -10px 10px, rgba(46, 149, 240, 0.2) -15px 15px, rgba(46, 133, 240, 0.1) -20px 20px, rgba(46, 175, 240, 0.05) -25px 25px;
+   
+  }
+
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
+  .project-deployed-link , .project-github-link {
+  box-shadow: rgba(4, 20, 248, 0.25) 0px 54px 55px, rgba(100, 4, 244, 0.12) 0px -12px 30px, rgba(89, 6, 244, 0.12) 0px 4px 6px, rgba(97, 4, 246, 0.17) 0px 12px 13px, rgba(75, 4, 240, 0.09) 0px -3px 5px;
+
+  }
