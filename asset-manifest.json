@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9ea41fe6.css",
-    "main.js": "/static/js/main.27988db2.js",
+    "main.js": "/static/js/main.dd2829d2.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/project4.png": "/static/media/project4.2d91699d874489034519.png",
     "static/media/project2.png": "/static/media/project2.be3ed262ed14fb0173cc.png",
     "static/media/project1.png": "/static/media/project1.5a00400acc1816362bd4.png",
     "static/media/project3.png": "/static/media/project3.7b0b941cdb9a28a8dd72.png",
     "static/media/editprofile.png": "/static/media/editprofile.26441ab0e14c81559015.png",
-    "static/media/Vivek_Singh_Tomar_Resume.pdf": "/static/media/Vivek_Singh_Tomar_Resume.8913800329ebe8e48439.pdf",
+    "static/media/Vivek_Singh_Tomar_Resume.pdf": "/static/media/Vivek_Singh_Tomar_Resume.a070b7914f5f15835833.pdf",
     "static/media/mongodb.png": "/static/media/mongodb.4d1763a20af23f3dbc1d.png",
     "static/media/redux.png": "/static/media/redux.492ed7d54dd2352c5786.png",
     "static/media/chakraui.png": "/static/media/chakraui.0719bee98cb0c0b83aeb.png",
@@ -18,11 +18,11 @@
     "static/media/github.png": "/static/media/github.68bbeafeade821944d14.png",
     "index.html": "/index.html",
     "main.9ea41fe6.css.map": "/static/css/main.9ea41fe6.css.map",
-    "main.27988db2.js.map": "/static/js/main.27988db2.js.map",
+    "main.dd2829d2.js.map": "/static/js/main.dd2829d2.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ea41fe6.css",
-    "static/js/main.27988db2.js"
+    "static/js/main.dd2829d2.js"
   ]
 }
