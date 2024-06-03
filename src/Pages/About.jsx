@@ -10,7 +10,7 @@ import Typewriter from "typewriter-effect";
 const About = () => {
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/18yyp2mB5klaFdCTpm9RQQkV5UDMNfxci/view?usp=sharing"
+      "https://drive.google.com/file/d/11EtYbNr4U93xYuxwI2VPvYyidMa9j9gJ/view?usp=drive_link"
     );
   };
 
@@ -73,7 +73,7 @@ const About = () => {
             className="project-tech-stack"
           >
            
-            An aspiring fullstack MERN Developer. I love to make projects with
+            Fullstack MERN Developer. I love to make projects with
             HTML, CSS, React JS, Redux, NodeJS, ExpressJS and MongoDB which are
             helpful for masses and serve as a great helpful entity.
            

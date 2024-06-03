@@ -161,7 +161,7 @@ export default function Navbar() {
               id="resume-button-1"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/18yyp2mB5klaFdCTpm9RQQkV5UDMNfxci/view?usp=sharing"
+                  "https://drive.google.com/file/d/11EtYbNr4U93xYuxwI2VPvYyidMa9j9gJ/view?usp=drive_link"
                 )
               }
             >

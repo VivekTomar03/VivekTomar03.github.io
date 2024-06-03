@@ -65,12 +65,12 @@ function ProjectCards({
             })}
           </Box>
           <HStack>
-            <Text fontSize={"10px"} as="b">
+            <Text fontSize={"13px"} as="b">
               Tech Stacks :{" "}
             </Text>
             {techStacks.map((elem) => {
               return (
-                <Text fontSize={"5px"} as="b" className="project-tech-stack">
+                <Text fontSize={"13px"} as="b" className="project-tech-stack">
                  
                   {elem}
                 </Text>

@@ -32,7 +32,7 @@ const  Projects = () => {
     },
     {
       id: 3,
-      imageSrc: "https://camo.githubusercontent.com/4b00978d51f494ee484d1b9c4f6bcc8bc2ae2cbbbba70351811141ab4ba002d7/68747470733a2f2f692e70696e696d672e636f6d2f373530782f66632f34612f31342f66633461313462343634653163653338663037336462653563373234643033332e6a7067",
+      imageSrc: "https://i.pinimg.com/736x/fc/4a/14/fc4a14b464e1ce38f073dbe5c724d033.jpg",
       title: "Movie Verse",
       description:
         "Movie Verse online booking for movies and live events, accompanied by a helpful chatbot for any assistance you need. ",
@@ -46,7 +46,7 @@ const  Projects = () => {
       imageSrc: project3,
       title: "Dollar General Clone",
       description:
-        "Dollar General is an America’s Online Store website which speciaizes in selling Daily essinatial Product. ",
+        "Dollar General is an America’s Online Store website which speciaizes in selling Daily Essential  Product. ",
       features: ["Home Page", "Login & Sign Up Page", "Product Page" , "Sorting and Filtring" , "Cart Page", "Admin Side"],
       techStacks: ["REACT JS", "CHAKRA UI", "CSS", "Json-Server"],
       github: "https://github.com/VivekTomar03/lovely-thing-6254",
@@ -73,7 +73,7 @@ const  Projects = () => {
       features: ["Home Page", "Login & Sign Up Page", "Rings, Earings Page","Cart Page", "Add to cart functionality", "Admin Side"],
       techStacks: ["REACT", "Redux", "CHAKRA-UI", "MongoDB", "Node-js"],
       github: "https://github.com/VivekTomar03/CaratLane--Clone",
-      live: "https://infinity-stone.vercel.app/",
+      live: "https://inifinestoneclone.vercel.app/",
     }
   ];
 

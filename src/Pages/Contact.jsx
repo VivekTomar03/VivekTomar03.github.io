@@ -20,7 +20,7 @@ import { FaPhone } from "react-icons/fa";
 const Contact = () => {
   const toast = useToast();
   return (
-    <Box id="contact">
+    <Box pb={6} id="contact">
     <Text as="b" fontSize="4xl">
       Get In Touch
     </Text>
@@ -42,7 +42,7 @@ const Contact = () => {
           />
           <Text as="b" fontSize={"lg"} id="contact-email">
             {" "}
-            :tomarvivek90viv@gmail.com
+            : tomarvivek90viv@gmail.com
           </Text>
         </HStack>
         <HStack
