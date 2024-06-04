@@ -10,6 +10,17 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "./Project.css";
 function ProjectCards({
   id,
@@ -21,6 +32,8 @@ function ProjectCards({
   github,
   live,
 }) {
+
+
   return (
     <Container
       maxWidth={{ base: "100%", md: "85%" }}
@@ -31,7 +44,7 @@ function ProjectCards({
         align={"center"}
         spacing={{ base: 8, md: 20 }}
         py={{ base: 20, md: 28 }}
-        direction={{ base: "column", md: "row" }}
+        direction={{ base: "column-reverse", md: "row" }}
       >
         <Stack
           data-aos-easing="ease-out-cubic"
@@ -90,7 +103,7 @@ function ProjectCards({
               bg={"#004DFF"}
               _hover={{ bg: "#004DFF" }}
               onClick={() => window.open(github, "_blank")}
-              className="project-github-link"
+              className="project-github-link button"
             >
               Github
             </Button>
@@ -99,11 +112,11 @@ function ProjectCards({
               size={"sm"}
               fontWeight={"normal"}
               px={6}
-              colorScheme={"#332CF2"}
-              bg={"#332CF2"}
-              _hover={{ bg: "#332CF2" }}
+              colorScheme={"#004DFF"}
+              bg={"#004DFF"}
+              _hover={{ bg: "#004DFF" }}
               onClick={() => window.open(live, "_blank")}
-              className="project-deployed-link"
+              className="project-deployed-link button"
             >
               Live
             </Button>
@@ -127,16 +140,42 @@ function ProjectCards({
             width={"full"}
             overflow={"hidden"}
             // ml={"20px"}
+            maxW={"500px"}
           >
-            <Image
+
+<Swiper
+        // spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={false}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+      {
+        imageSrc?.map((el) => (
+        <SwiperSlide>
+   <Image
               _hover={{ transform: "scale(1.2)" }}
               alt={"Hero Image"}
               fit={"cover"}
               align={"center"}
               w={"100%"}
               h={"100%"}
-              src={imageSrc}
+              src={el}
+              
             />
+        </SwiperSlide>
+
+        ))
+      }
+      </Swiper>
+         
           </Box>
         </Flex>
       </Stack>

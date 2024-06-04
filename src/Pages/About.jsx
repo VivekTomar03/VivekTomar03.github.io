@@ -57,8 +57,9 @@ const About = () => {
           height="fit-content"
           data-aos="zoom-out-left"
         >
-          <Text color={"tomato"} fontSize="2xl" as="b" id="user-detail-name">
+          <Text  color={"tomato"} fontSize="2xl" as="b" id="user-detail-name">
             <Typewriter
+            
               options={{
                 strings: ["HELLO 👋" ,"I am Vivek Singh Tomar"],
                 autoStart: true,
@@ -71,6 +72,7 @@ const About = () => {
             fontSize="lg"
             id="user-detail-intro"
             className="project-tech-stack"
+            textAlign={"start"}
           >
            
             Fullstack MERN Developer. I love to make projects with

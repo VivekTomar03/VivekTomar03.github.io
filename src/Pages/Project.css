@@ -12,3 +12,57 @@
   box-shadow: rgba(4, 20, 248, 0.25) 0px 54px 55px, rgba(100, 4, 244, 0.12) 0px -12px 30px, rgba(89, 6, 244, 0.12) 0px 4px 6px, rgba(97, 4, 246, 0.17) 0px 12px 13px, rgba(75, 4, 240, 0.09) 0px -3px 5px;
 
   }
+
+  .button {
+    color: white;
+    --color: #332CF2;
+    font-family: inherit;
+    display: inline-block;
+   
+    border: 2px solid #004DFF;
+  
+    position: relative;
+    overflow: hidden;
+
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   .button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .button:hover {
+    color: #fff;
+   }
+   
+   .button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
+
+   .mySwiper{
+    width: 100%;
+    height: 100%;
+   }
