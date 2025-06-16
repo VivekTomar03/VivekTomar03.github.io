@@ -70,7 +70,6 @@ export default function Navbar() {
             </Text>{" "}
           </Box>
           <HStack as={"nav"} spacing={4} display={{ base: "none", md: "flex" }}>
-           
             <Link
               spy={true}
               as={ScrollLink}
@@ -166,7 +165,12 @@ export default function Navbar() {
               }
             >
               {" "}
-              <a download="Vivek_Singh_Tomar_Resume.pdf" href={vivek} target={"blank"} id="resume-link-1">
+              <a
+                download="Vivek_Singh_Tomar_Resume.pdf"
+                href={vivek}
+                target={"blank"}
+                id="resume-link-1"
+              >
                 Resume
               </a>
             </Button>
